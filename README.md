@@ -50,7 +50,7 @@ A aplicação é dividida nas seguintes camadas, cada uma com sua responsabilida
 - **Padrão de Projeto DAO:** Utilizado para isolar completamente a lógica de acesso ao banco de dados, tornando o código mais limpo, testável e fácil de manter.
 - **Fábrica de Aplicação (Application Factory):** O app Flask é criado e configurado dentro de uma função, uma prática recomendada para facilitar testes e a configuração de múltiplos ambientes.
 
-## Instruções de Instalação
+## Instruções de Instalação & Execução
 
 1.  Clone este repositório.
 2.  Navegue até a pasta do projeto: `cd backend-tarefas`
