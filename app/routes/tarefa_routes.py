@@ -1,7 +1,6 @@
 from flask import Blueprint, request, jsonify
 from app.services import tarefa_service
 
-# O prefixo continua /tarefas, então as rotas serão acessadas a partir dele
 bp = Blueprint('tarefa_routes', __name__, url_prefix='/tarefas')
 
 def get_user_id_from_header():

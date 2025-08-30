@@ -1,7 +1,5 @@
-# /config.py
 import os
 
-# Pega o caminho absoluto da pasta onde este arquivo está
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
