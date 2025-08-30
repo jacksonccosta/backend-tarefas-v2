@@ -1,0 +1,44 @@
+# Ambientes Virtuais
+# Nunca envie seu ambiente virtual para o repositório.
+venv/
+*.venv
+env/
+.env
+
+# Arquivos de Cache e Bytecode do Python
+# Gerados automaticamente pelo Python, não são necessários no repositório.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bancos de Dados Locais
+# O banco de dados de desenvolvimento não deve ser versionado.
+# O schema é gerado pelo código (db.create_all()).
+*.db
+*.sqlite
+*.sqlite3
+
+# Pastas de IDEs e Editores de Código
+# Configurações específicas do seu editor.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# (Opcional, mas boa prática para Flask)
+# Pasta de instância para configurações sensíveis.
+instance/
+
+# Arquivos de Sistema Operacional
+# Arquivos de metadados do macOS e Windows.
+.DS_Store
+Thumbs.db
+
+# Arquivos de Log
+*.log
+
+# Arquivos de Cobertura de Testes
+.coverage
+.coverage.*
+htmlcov/
